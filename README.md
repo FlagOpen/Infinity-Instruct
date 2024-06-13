@@ -1,8 +1,7 @@
-# Infinity-Instruct
-
-## **Infinity Instruct**
+# Infinity Instruct*
 
 Beijing Academy of Artificial Intelligence (BAAI)
+[Paper][Code][🤗] (would be released soon)
 
 ![](static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png)
 
@@ -18,13 +17,39 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 
 ## **GPT-4 automatic evaluation**
 
+|           **Model**          	| **MT-Bench** 	| **AlpacaEval2.0** 	|
+|:----------------------------:	|:------------:	|:-----------------:	|
+| OpenHermes-2.5-Mistral-7B    	|      7.5     	|        16.2       	|
+| Mistral-7B-Instruct-v0.2     	|      7.6     	|        17.1       	|
+| Llama-3-8B-Instruct*         	|      8.1     	|        22.9       	|
+| GPT 3.5 Turbo 0613           	|      8.4     	|        22.7       	|
+| Mixtral 8x7B v0.1            	|      8.3     	|        23.7       	|
+| Gemini Pro                   	|      --      	|        24.4       	|
+| InfInstruct-Mistral-7B 0601  	|      7.3     	|        14.3       	|
+| InfInstruct-Mistral-7B 0608  	|      7.8     	|        16.9       	|
+| InfInstruct-Mistral-7B 0612  	|              	|        25.1       	|
+| GPT-4-0613                   	|      9.2     	|        30.2       	|
+| Llama-3-70B-Instruct*        	|      9.0     	|        34.4       	|
+| InfInstruct-Llama-3-70B 0601 	|      8.4     	|        21.8       	|
+| InfInstruct-Llama-3-70B 0608 	|      8.9     	|        27.1       	|
+| InfInstruct-Llama-3-70B 0612 	|              	|        30.7       	|
+| InfInstruct-Llama-3-70B 0613 	|              	|                   	|
+
 *denotes the results come from [web](https://huggingface.co/abacusai)
 
 ## Performance on **Downstream tasks**
 
-## **Overview of Infinity Instruct**
+|          **Model**          	| **MMLU ** 	| **GSM8K** 	| **HumanEval** 	| **HellaSwag ** 	| **Average** 	|
+|:---------------------------:	|:---------:	|:---------:	|:-------------:	|:--------------:	|:-----------:	|
+| Mistral-7B                  	|    56.5   	|    48.1   	|      14.0     	|      35.5      	|     38.5    	|
+| Mistral-7B-Instruct-v0.2    	|    59.6   	|    45.9   	|      32.9     	|      64.4      	|     50.7    	|
+| OpenHermes-2.5-Mistral-7B   	|    61.7   	|    73.0   	|      41.5     	|      80.6      	|     64.2    	|
+| InfInstruct-Mistral-7B 0601 	|    62.9   	|    78.1   	|      50.6     	|      84.8      	|     69.1    	|
 
-## **Data sources **
+## Overview of Infinity Instruct
+![](static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png)
+
+## Data sources
 
 We collect large-scale instruct data from the open-source community. The data sources are listed as follows:
 
