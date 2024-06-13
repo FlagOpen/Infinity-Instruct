@@ -4,7 +4,7 @@
 <img src="static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png" width="300">
 </p>
 <p align="center">
-<em>Beijing Academy of Artificial Intelligence (BAAI)</em>
+<em>Beijing Academy of Artificial Intelligence (BAAI)</em><br/>
 <em>[Paper][Code][🤗] (would be released soon)</em>
 </p>
 
