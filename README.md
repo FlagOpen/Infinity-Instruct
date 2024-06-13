@@ -42,7 +42,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 
 ## Performance on **Downstream tasks**
 
-|          **Model**          	| **MMLU ** 	| **GSM8K** 	| **HumanEval** 	| **HellaSwag ** 	| **Average** 	|
+|          **Model**          	|  **MMLU** 	| **GSM8K** 	| **HumanEval** 	| **HellaSwag** 	| **Average** 	|
 |:---------------------------:	|:---------:	|:---------:	|:-------------:	|:--------------:	|:-----------:	|
 | Mistral-7B                  	|    56.5   	|    48.1   	|      14.0     	|      35.5      	|     38.5    	|
 | Mistral-7B-Instruct-v0.2    	|    59.6   	|    45.9   	|      32.9     	|      64.4      	|     50.7    	|
