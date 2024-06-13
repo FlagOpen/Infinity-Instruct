@@ -1,9 +1,12 @@
-# Infinity Instruct*
+# Infinity Instruct
 
-Beijing Academy of Artificial Intelligence (BAAI)
-[Paper][Code][🤗] (would be released soon)
-
-![](static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png)
+<p align="center">
+<img src="static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png" width="300">
+</p>
+<p align="center">
+<em>Beijing Academy of Artificial Intelligence (BAAI)</em>
+<em>[Paper][Code][🤗] (would be released soon)</em>
+</p>
 
 The quality and scale of instruction data are crucial for model performance. Recently, open-source models have increasingly relied on fine-tuning datasets comprising millions of instances, necessitating both high quality and large scale. However, the open-source community has long been constrained by the high costs associated with building such extensive and high-quality instruction fine-tuning datasets, which has limited related research and applications. To address this gap, we are introducing the **Infinity Instruct **project, aiming to develop a large-scale, high-quality instruction dataset.
 
@@ -47,13 +50,13 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | InfInstruct-Mistral-7B 0601 	|    62.9   	|    78.1   	|      50.6     	|      84.8      	|     69.1    	|
 
 ## Overview of Infinity Instruct
-![](static/Bk3NbjnJko51MTx1ZCScT2sqnGg.png)
+![](static/whiteboard_exported_image.png)
 
 ## Data sources
 
 We collect large-scale instruct data from the open-source community. The data sources are listed as follows:
 
-- <u>OpenHermes-2.5</u><u> </u>
+- [OpenHermes-2.5](https://huggingface.co/datasets/teknium/OpenHermes-2.5)
 - [UltraInteract_sft](https://huggingface.co/datasets/openbmb/UltraInteract_sft)
 - [CodeBagel](https://huggingface.co/datasets/Replete-AI/code_bagel)
 - [CodeFeedback-Filtered-Instruction](https://huggingface.co/datasets/m-a-p/Code-Feedback)
@@ -64,9 +67,51 @@ We collect large-scale instruct data from the open-source community. The data so
 - [orca-math-word-problems-200k](https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k)
 - [MetaMathQa](https://huggingface.co/datasets/meta-math/MetaMathQA)
 
-The detailed information on Infinity-Instruct 0601 is shown in the following table.
+- The detailed information on Infinity-Instruct 0601 is shown in the following table.
+  
+| **Raw Dataset**                               	| **Numbers of Rows** 	|
+|-----------------------------------------------	|:-------------------:	|
+| glaiveai/glaive-code-assistant-v3             	|        138157       	|
+| Replete-AI/code_bagel_hermes-2.5              	|        506346       	|
+| m-a-p/CodeFeedback-Filtered-Instruction       	|        104848       	|
+| bigcode/self-oss-instruct-sc2-exec-filter-50k 	|        50661        	|
+| codefuse-ai/CodeExercise-Python-27k           	|        27224        	|
+| nickrosh/Evol-Instruct-Code-80k-v1            	|        78264        	|
+| TIGER-Lab/MathInstruct                        	|        188486       	|
+| microsoft/orca-math-word-problems-200k        	|        200035       	|
+| MetaMathQa                                    	|        395000       	|
+| teknium/Openhermes-2.5                        	|       1001551       	|
+| Math                                          	|        320130       	|
+| Selected subjective instructions              	|       1362000       	|
+| **Summary**                                     |     **4372702**       |
 
-- **Source and number of subjective instructions:**
+
+- Source and number of subjective instructions:
+
+| **Raw Dataset**              	| **Numbers of Rows** 	|
+|------------------------------	|:-------------------:	|
+| Alpaca GPT4 data             	|        13490        	|
+| Alpaca GPT4 data zh          	|        32589        	|
+| Baize                        	|        14906        	|
+| BELLE Generated Chat         	|        43775        	|
+| BELLE Multiturn Chat         	|        210685       	|
+| BELLE 3.5M CN                	|        312598       	|
+| databricks-dolly-15K         	|        10307        	|
+| LIMA-sft                     	|         712         	|
+| CodeContest                  	|         523         	|
+| LongForm                     	|         3290        	|
+| ShareGPT-Chinese-English-90k 	|         8919        	|
+| UltraChat                    	|        276345       	|
+| Wizard evol instruct zh      	|        44738        	|
+| Wizard evol instruct 196K    	|        88681        	|
+| BELLE School Math            	|        38329        	|
+| Code Alpaca 20K              	|        13296        	|
+| WildChat                     	|        61873        	|
+| COIG-CQIA                    	|        45793        	|
+| BAGEL                        	|        55193        	|
+| DEITA                        	|        10000        	|
+| Math                         	|        320130       	|
+| **Summary**                  	|     **1362000**     	|
 
 The domain distribution of the subjective instruction category are shown in the following picture.
 
@@ -126,3 +171,15 @@ The resources, including code, data, and model weights, associated with this pro
 [1] Li M, Zhang Y, He S, et al. Superfiltering: Weak-to-strong data filtering for fast instruction-tuning[J]. arXiv preprint arXiv:2402.00530, 2024.
 
 [2] Xu C, Sun Q, Zheng K, et al. WizardLM: Empowering large pre-trained language models to follow complex instructions[C]//The Twelfth International Conference on Learning Representations. 2023.
+
+## Citation
+Our paper, detailing the development and features of the **Infinity Instruct** dataset, will be released soon on arXiv. Stay tuned!
+
+```
+@article{InfinityInstruct2024,
+  title={Infinity Instruct},
+  author={Beijing Academy of Artificial Intelligence (BAAI)},
+  journal={arXiv preprint arXiv:2406.XXXX},
+  year={2024}
+}
+```
