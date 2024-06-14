@@ -8,7 +8,7 @@
 <em>[Paper][Code][🤗] (would be released soon)</em>
 </p>
 
-The quality and scale of instruction data are crucial for model performance. Recently, open-source models have increasingly relied on fine-tuning datasets comprising millions of instances, necessitating both high quality and large scale. However, the open-source community has long been constrained by the high costs associated with building such extensive and high-quality instruction fine-tuning datasets, which has limited related research and applications. To address this gap, we are introducing the **Infinity Instruct **project, aiming to develop a large-scale, high-quality instruction dataset.
+The quality and scale of instruction data are crucial for model performance. Recently, open-source models have increasingly relied on fine-tuning datasets comprising millions of instances, necessitating both high quality and large scale. However, the open-source community has long been constrained by the high costs associated with building such extensive and high-quality instruction fine-tuning datasets, which has limited related research and applications. To address this gap, we are introducing the **Infinity Instruct** project, aiming to develop a large-scale, high-quality instruction dataset.
 
 ## **News**
 
