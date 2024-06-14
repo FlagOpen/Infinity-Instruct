@@ -123,7 +123,7 @@ To create an objective ranking, we utilize datasets such as Flan and OpenHermes,
 
 ## **Instruction ****G****eneration for ****H****igh-****Q****uality ****R****esponse**
 
-![](static/JAJObn7xToLPSHxz0TjcUeiEn4c.png)
+![](static/dataflow.jpeg)
 
 ### High-Quality Open Source Instruction Collection and Tag System
 
