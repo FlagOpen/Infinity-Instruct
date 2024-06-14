@@ -50,7 +50,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | InfInstruct-3M-Mistral-7B   	|    62.9   	|    78.1   	|      50.6     	|      84.8      	|     69.1    	|
 
 ## Overview of Infinity Instruct
-![](static/whiteboard_exported_image.png)
+![](static/whiteboard.png)
 
 ## Data sources
 
