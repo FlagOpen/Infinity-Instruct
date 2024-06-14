@@ -28,7 +28,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | GPT 3.5 Turbo 0613           	|      8.4     	|        22.7       	|
 | Mixtral 8x7B v0.1            	|      8.3     	|        23.7       	|
 | Gemini Pro                   	|      --      	|        24.4       	|
-| InfInstruct-Mistral-7B 0601  	|      7.3     	|        14.3       	|
+| InfInstruct-3M-Mistral-7B   	|      7.3     	|        14.3       	|
 | InfInstruct-Mistral-7B 0608  	|      7.8     	|        16.9       	|
 | InfInstruct-Mistral-7B 0612  	|              	|        25.1       	|
 | GPT-4-0613                   	|      9.2     	|        30.2       	|
@@ -47,7 +47,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | Mistral-7B                  	|    56.5   	|    48.1   	|      14.0     	|      35.5      	|     38.5    	|
 | Mistral-7B-Instruct-v0.2    	|    59.6   	|    45.9   	|      32.9     	|      64.4      	|     50.7    	|
 | OpenHermes-2.5-Mistral-7B   	|    61.7   	|    73.0   	|      41.5     	|      80.6      	|     64.2    	|
-| InfInstruct-Mistral-7B 0601 	|    62.9   	|    78.1   	|      50.6     	|      84.8      	|     69.1    	|
+| InfInstruct-3M-Mistral-7B   	|    62.9   	|    78.1   	|      50.6     	|      84.8      	|     69.1    	|
 
 ## Overview of Infinity Instruct
 ![](static/whiteboard_exported_image.png)
@@ -67,7 +67,7 @@ We collect large-scale instruct data from the open-source community. The data so
 - [orca-math-word-problems-200k](https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k)
 - [MetaMathQa](https://huggingface.co/datasets/meta-math/MetaMathQA)
 
-- The detailed information on Infinity-Instruct 0601 is shown in the following table.
+- The detailed information on Infinity-Instruct-3M is shown in the following table.
   
 | **Raw Dataset**                               	| **Numbers of Rows** 	|
 |-----------------------------------------------	|:-------------------:	|
