@@ -30,7 +30,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | Gemini Pro                   	|      --      	|        24.4       	|
 | InfInstruct-3M-Mistral-7B   	|      7.3     	|        14.3       	|
 | InfInstruct-Mistral-7B 0608  	|      7.8     	|        16.9       	|
-| InfInstruct-Mistral-7B 0612  	|             	|        25.1       	|
+| InfInstruct-Mistral-7B 0612  	|      7.9    	|        25.1       	|
 | GPT-4-0613                   	|      9.2     	|        30.2       	|
 | Llama-3-70B-Instruct*        	|      9.0     	|        34.4       	|
 | InfInstruct-Llama-3-70B 0601 	|      8.4     	|        21.8       	|
