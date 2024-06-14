@@ -33,7 +33,7 @@ huggingface[[https://huggingface.co/datasets/BAAI/Infinity-Instruct](https://hug
 | InfInstruct-Mistral-7B 0612  	|      7.9    	|        25.1       	|
 | GPT-4-0613                   	|      9.2     	|        30.2       	|
 | Llama-3-70B-Instruct*        	|      9.0     	|        34.4       	|
-| InfInstruct-Llama-3-70B 0601 	|      8.4     	|        21.8       	|
+| InfInstruct-3M-Llama-3-70B  	|      8.4     	|        21.8       	|
 | InfInstruct-Llama-3-70B 0608 	|      8.9     	|        27.1       	|
 | InfInstruct-Llama-3-70B 0612 	|      8.6     	|        30.7       	|
 | InfInstruct-Llama-3-70B 0613 	|      8.7     	|        31.5        	|
